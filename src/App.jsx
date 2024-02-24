@@ -17,7 +17,7 @@ to {
 const CanadaStyledIcon = styled(FaCanadianMapleLeaf)`
   font-size: 40px;
   animation: ${rotate} 3s linear infinite;
-  color: red;
+  color: ${(props) => props.theme.colors.canada};
 `
 
 const StyledImg = styled.img`
